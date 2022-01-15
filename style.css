@@ -1,0 +1,74 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* common styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Influencer Journey section */
+
+.container {
+  margin-bottom: 100px;
+}
+.section-title {
+  left: 8.33%;
+  right: 74.79%;
+  top: 2.63%;
+  bottom: 95.79%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3a3a3a;
+}
+.influencer-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.journey {
+  width: 582px;
+  height: 270px;
+}
+
+h1 {
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.journey-img img {
+  width: 440px;
+  height: 414px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+button {
+  background: #e02c6d;
+  border-radius: 41px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* top products section */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#see-more {
+  text-align: right;
+}
+/* Bonus Sign up section */
+
+.sign-up {
+  align-items: center;
+  justify-content: center;
+}
